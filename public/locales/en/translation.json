@@ -1,0 +1,25 @@
+{
+    "header":{
+        "navigation":["About me","Skills","Projects"],
+        "logo":"What i got?",
+        "contact":"Contact"
+    },
+    "about":{
+        "title":["Hello","Im Yuriy Devian"],
+        "description":"Web developer from St. Petersburg. I don't have any struggles while working with frontend development. I can offer different services, such as creating websites, cooperating with backend, or doing individual tasks",
+        "contact":"Contact"
+    },
+    "skills":{
+        "title":"Skills",
+        "description":"Here are all the skills that I understand",
+        "skills_description":["3 fundamental things in web programming that every developer knows","You can't do anything without a git. Very useful thing","Frameworks that are popular today, on which websites and microservices are written much faster and more pragmatically","Redux helps to manage the state of the application, solve many problems (addition to ReactJS / NextJS)","Even in small projects where ts is not required, I still use it, I'm very used to it :(","Also have a little but experience with the MERN stack (authentication, WebSocket, Socket.io, p2p)","Most often I use the Figma service, the Photoshop editor sometimes has to (HTML coding)","Also wrote bots on node and python (integration with many api)"],
+        "skills_button_text":"Read more"
+    },
+    "projects":{
+        "title":"Projects",
+        "description":"What have I been doing lately",
+        "button_text":"Look at piece of code",
+        "project_description":["Anonymous chat with rooms. You will not know who is hiding behind the interlocutors until everyone opens up to each other","Clone of the popular site Clubhouse with P2P communication","Turbozaim - a site for financial problems. How easy and fast can you get a loan online","Parser Panel, the required parsing came from the backend"],
+        "project_stack":["ReactJS + Redux, NodeJS + Express + MongoDB","ReactJS + Redux + Socket.io + WebRTC, NodeJS + Express + MongoDB","ReactJS + Redux + other libraries (Backend was not written by me)","ReactJS + Redux + Ace editor + other libraries (Backend was not written by me)"]
+    }
+}

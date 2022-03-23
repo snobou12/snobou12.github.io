@@ -1,0 +1,96 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: #f9fafb;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+button {
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: ease all 0.3s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #f9fafb;
+
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    box-shadow: 0 0 hsl(204, 100%, 45%);
+    background: linear-gradient(to right, #2563eb, #d946ef 80%);
+    background: -webkit-linear-gradient(to right, #2563eb, #d946ef 80%);
+  }
+}

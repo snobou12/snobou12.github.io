@@ -1,0 +1,194 @@
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.skills__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skills__description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.skills__content {
+  position: relative;
+  top:0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  z-index: 2001;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+.skills__block {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 320px;
+  height: 336px;
+  transition: ease .3s all;
+  cursor: pointer;
+  background: linear-gradient(
+    268.12deg,
+    rgba(254, 254, 255, 0.032) -11.04%,
+    rgba(255, 255, 255, 0.018) 104.89%
+  );
+  box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+  &:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+
+.skills__block_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px #f9fafb;
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+  &:first-child div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+  }
+  .react_next {
+    &:first-child svg {
+      filter: invert(50%) sepia(100%) saturate(1132%) hue-rotate(157deg)
+        brightness(102%) contrast(97%);
+    }
+    &:last-child svg {
+      filter: invert(70%) sepia(8%) saturate(2208%) hue-rotate(128deg)
+        brightness(108%) contrast(80%);
+    }
+  }
+
+  .redux {
+    svg {
+      filter: invert(35%) sepia(42%) saturate(1191%) hue-rotate(226deg)
+        brightness(91%) contrast(96%);
+    }
+  }
+  .html_css_js {
+    &:first-child svg {
+      filter: invert(34%) sepia(41%) saturate(7215%) hue-rotate(357deg)
+        brightness(105%) contrast(80%);
+    }
+    &:nth-child(2) svg {
+      filter: invert(29%) sepia(99%) saturate(841%) hue-rotate(186deg)
+        brightness(92%) contrast(93%);
+    }
+
+    &:last-child svg {
+      filter: invert(10%) sepia(38%) saturate(980%) hue-rotate(352deg)
+        brightness(99%) contrast(96%);
+    }
+  }
+  .git {
+    svg {
+      filter: invert(37%) sepia(47%) saturate(5209%) hue-rotate(349deg)
+        brightness(98%) contrast(82%);
+    }
+  }
+  .figma_ps {
+    &:first-child svg {
+      filter: invert(71%) sepia(77%) saturate(2250%) hue-rotate(105deg)
+        brightness(88%) contrast(98%);
+    }
+
+    &:last-child svg {
+      filter: invert(51%) sepia(82%) saturate(1356%) hue-rotate(180deg)
+        brightness(96%) contrast(99%);
+    }
+  }
+
+  .nodejs_express_mongodb {
+    &:first-child svg {
+      filter: invert(40%) sepia(51%) saturate(1161%) hue-rotate(37deg)
+        brightness(96%) contrast(103%);
+    }
+
+    &:last-child svg {
+      filter: invert(38%) sepia(84%) saturate(453%) hue-rotate(81deg)
+        brightness(95%) contrast(89%);
+    }
+  }
+  .ts {
+    svg {
+      filter: invert(39%) sepia(41%) saturate(1338%) hue-rotate(178deg)
+        brightness(92%) contrast(85%);
+    }
+  }
+  .bots {
+    svg {
+      filter: invert(80%) sepia(0%) saturate(1%) hue-rotate(135deg)
+        brightness(104%) contrast(91%);
+    }
+  }
+}
+
+.skills__block_title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 16px;
+}
+
+.skills__block_description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(172, 172, 172);
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.skills__block_features {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease all .3s;
+
+  cursor: pointer;
+  span{
+    transition: ease all .3s;
+  border-bottom: 1px solid transparent;
+
+  }
+  gap: 5px;
+  &:hover{
+    span{
+      border-bottom: 1px solid #f9fafb;
+    }
+  }
+}
